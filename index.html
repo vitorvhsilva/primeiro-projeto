@@ -1,28 +1,91 @@
 <!-- Este e um comentario em HTML -->
-<!DOCTYPE html> <!-- Esse e o DTD do HTML5. -->
+<!DOCTYPE html>
+<!-- Esse e o DTD do HTML5. -->
 <!-- O DTD e o document type definition, ele diz ao browser a versao que deve ser carregada -->
 
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Basica</title>
   </head>
   <body>
     <div class="container">
       <header class="cabecalho">
-        <h1 style="text-align: center; 
-        border: solid 2px #ff0000;">Minha Página</h1>
+        <h1 style="text-align: center; border: solid 2px #ff0000">
+          Minha Página
+        </h1>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#">Ajuda</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
           </ul>
         </nav>
-
       </header>
 
+      <section>
+        <div>
+          <h2>Ajuda</h2>
+          <p>
+            <span>AJUDA</span> Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Velit in vero ad eos quas fugiat culpa nihil impedit odio,
+            tempora soluta error maxime autem eaque blanditiis explicabo nam a
+            veritatis voluptatum? Vel maxime ratione doloribus mollitia quidem
+            quam cumque veniam praesentium, sint obcaecati inventore. Blanditiis
+            vero earum odio nobis ducimus expedita asperiores velit beatae sed
+            rem dignissimos illo placeat similique culpa facilis repudiandae
+            iusto quo, error esse molestiae provident est reprehenderit
+            voluptates. Reprehenderit, minus temporibus nobis iusto, ad optio
+            odio aspernatur ipsum natus dolore sapiente dicta impedit sed. Iure
+            neque unde aspernatur, laudantium totam esse eos tenetur sed fuga
+            assumenda.
+          </p>
+          <a href="#">Mais...</a>
+        </div>
+
+        <div>
+          <h2>Sobre</h2>
+          <p>
+            <span>SOBRE</span> Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Velit in vero ad eos quas fugiat culpa nihil impedit odio,
+            tempora soluta error maxime autem eaque blanditiis explicabo nam a
+            veritatis voluptatum? Vel maxime ratione doloribus mollitia quidem
+            quam cumque veniam praesentium, sint obcaecati inventore. Blanditiis
+            vero earum odio nobis ducimus expedita asperiores velit beatae sed
+            rem dignissimos illo placeat similique culpa facilis repudiandae
+            iusto quo, error esse molestiae provident est reprehenderit
+            voluptates. Reprehenderit, minus temporibus nobis iusto, ad optio
+            odio aspernatur ipsum natus dolore sapiente dicta impedit sed. Iure
+            neque unde aspernatur, laudantium totam esse eos tenetur sed fuga
+            assumenda.
+          </p>
+          <a href="#">Mais...</a>
+        </div>
+
+        <div>
+          <h2>Contato</h2>
+          <form action="">
+            <fieldset>
+              <legend>Contato</legend>
+              <div>
+                <label for="idEmail">Email</label>
+                <input type="email" name="txtEmail" id="idEmail" placeholder="Digite seu e-mail.">
+              </div>
+              <div>
+                <label for="idTel">Email</label>
+                <input type="tel" name="txtTel" id="idTel" placeholder="Digite seu telefone.">
+              </div>
+              <div>
+                <button type="button">Enviar</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+      </section>
+
+      
     </div>
   </body>
 </html>
